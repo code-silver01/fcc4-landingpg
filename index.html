@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DevFlix – Learn to Code. Eventually.</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header id="header">
+    <img src="https://raw.githubusercontent.com/johnywalves/devflix/master/public/img/logo.png" alt="DevFlix Logo" id="header-img" />
+    <nav id="nav-bar">
+      <a href="#features" class="nav-link">Features</a>
+      <a href="#how-it-works" class="nav-link">How It Works</a>
+      <a href="#pricing" class="nav-link">Pricing</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>DevFlix</h1>
+    <p class="tagline">Binge tutorials like Netflix. Finish none like a true developer.</p>
+    <div class="cta-buttons">
+      <button class="btn primary">Start Free Trial</button>
+      <button class="btn secondary">Add to Watchlist (Forever)</button>
+    </div>
+  </section>
+
+  <section id="features" class="features">
+    <h2>Features</h2>
+    <div class="feature-list">
+      <div class="feature">
+        <h3>🧠 Tutorial Hoarder Mode</h3>
+        <p>Add every course ever made. Whether you’ll watch them is irrelevant.</p>
+      </div>
+      <div class="feature">
+        <h3>⏸ Infinite Pause Tracking</h3>
+        <p>Automatically bookmarks the exact moment you mentally check out.</p>
+      </div>
+      <div class="feature">
+        <h3>🤷 Algorithmic Confusion™</h3>
+        <p>Recommends 7 conflicting courses on the same topic. You're welcome.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="how-it-works" class="how-it-works">
+    <h2>How It Works</h2>
+    <ol>
+      <li>Sign Up – Pick a username like <code>codeMaster44</code>.</li>
+      <li>Add Everything to Your List – More = productive, right?</li>
+      <li>Watch 3 minutes, Take a Break – You earned it.</li>
+      <li>Get Overwhelmed, Give Up – Classic.</li>
+      <li>Repeat Weekly – Just like your gym plan.</li>
+    </ol>
+    <div class="video-container">
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+        title="DevFlix Trailer" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section id="pricing" class="pricing">
+    <h2>Pricing</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Plan</th>
+          <th>Name</th>
+          <th>Features</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>🐢</td>
+          <td>The Procrastinator</td>
+          <td>10 unfinished tutorials, ads, 2 guilt alerts/month</td>
+          <td>₹0</td>
+        </tr>
+        <tr>
+          <td>🦥</td>
+          <td>The Hesitator</td>
+          <td>Unlimited pauses, weekly guilt reminders</td>
+          <td>₹299/mo</td>
+        </tr>
+        <tr>
+          <td>🧘</td>
+          <td>The Enlightened</td>
+          <td>Everything + 1 completed course in lifetime</td>
+          <td>₹9999 once</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="signup">
+    <h2>Subscribe for Updates (You Won’t Read)</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input 
+        type="email" 
+        id="email" 
+        name="email" 
+        placeholder="Enter your email address" 
+        required />
+      <input type="submit" id="submit" value="Get Guilt Alerts" />
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 DevFlix Inc. | Built with 1% code and 99% excuses.</p>
+  </footer>
+</body>
+</html>
